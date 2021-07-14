@@ -1,0 +1,476 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* common css or utilities start */
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: poppins, sans-serif;
+}
+
+header {
+    background-color: #2D25A0;
+}
+
+/* common css or utilities end */
+
+
+/*------------------------------------ header section starts from here ------------------------------------*/
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 86px 0px;
+}
+
+.banner-title h1 {
+    margin: 0px;
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+}
+
+.banner-btn {
+    background-color: #E02C6D;
+    width: 158px;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.banner-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.banner-btn .fa-arrow-right {
+    margin-left: 8px;
+}
+
+.banner-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.6s ease;
+}
+
+.banner-image img {
+    width: 556px;
+    height: 438px;
+}
+
+.banner-image img:hover {
+    transform: translate(-30px);
+    transition: transform 0.5s ease;
+}
+
+/*------------------------------------ header section ends from here ------------------------------------*/
+
+
+/*------------------------------------ main section starts from here ------------------------------------*/
+
+/*------- players section starts from here -------*/
+.player-container-area {
+    margin-top: 70px;
+}
+
+.player-container {
+    display: flex;
+    justify-content: center;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+
+.player {
+    width: 300px;
+    height: 474px;
+    padding: 15px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}
+
+.player img {
+    width: 300px;
+    height: 256px;
+}
+
+.player h2 {
+    color: #18191F;
+}
+
+/*------- players section ends from here -------*/
+
+
+/*------- highlights section starts from here -------*/
+.highlights-container-area {
+    margin: 155px 100px;
+}
+
+.highlights-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.highlights-title {
+    width: 470px;
+    display: flex;
+    align-items: center;
+}
+
+.highlights-title h1 {
+    font-size: 46px;
+    font-weight: 700;
+    margin: 0px;
+    color: #0A0826;
+}
+
+
+.highlights-btn {
+    background-color: #E02C6D;
+    width: 158px;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.highlights-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.highlights-btn .fa-arrow-right {
+    margin-left: 8px;
+}
+
+.highlights-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.6s ease;
+}
+
+.highlights-image img {
+    width: 567px;
+    height: 427px;
+}
+
+/*------- highlights section ends from here -------*/
+
+
+
+/*------- copa america final section starts from here -------*/
+.copa-final-container-area {
+    margin: 155px 100px;
+}
+
+.copa-final-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.copa-final-image {
+    text-align: center;
+}
+
+.copa-final-image img {
+    width: 567px;
+    height: 427px;
+}
+
+.copa-final-title {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.copa-final-title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    color: #0A0826;
+}
+
+.copa-final-btn {
+    background-color: #E02C6D;
+    width: 158px;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.copa-final-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+.copa-final-btn .fa-arrow-right {
+    margin-left: 8px;
+}
+
+.copa-final-btn:hover {
+    transform: scale(1.1);
+    transition: transform 0.6s ease;
+}
+
+.highlights-image img {
+    width: 567px;
+    height: 427px;
+}
+
+/*------- copa america final section ends from here -------*/
+
+
+
+/* ------- top 6 football club section starts from here -------  */
+.football-club-container {
+    margin-bottom: 150px;
+}
+
+.football-club-container h1 {
+    color: #2D25A0;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.football-club {
+    display: flex;
+    justify-content: center;
+}
+
+.clubs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 35px;
+}
+
+.club {
+    width: 300px;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.20);
+}
+
+.club .club-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+/* ------- top 6 football club section ends from here -------  */
+
+
+
+/*------------------------------------ main section ends from here ------------------------------------*/
+
+
+/*------------------------------------ footer section starts from here ------------------------------------*/
+.footer-area {
+    text-align: center;
+}
+
+.footer-image img {
+    width: 483px;
+    height: 110px;
+}
+
+.s-icon-filled {
+    color: #969BAB;
+    background: #969bab2a;
+    padding: 7px;
+    border-radius: 50%;
+    font-size: 17px;
+}
+
+.copyright-text {
+    font-size: 18px;
+}
+
+/*------------------------------------ footer section ends from here ------------------------------------*/
+
+
+
+/*------------------------------------ Media queries starts from here ------------------------------------*/
+/*---------- Mobile devices media queries ----------*/
+@media only screen and (max-width:688px) {
+
+    /* banner area  */
+    .banner {
+        flex-direction: column;
+        padding-top: 20px;
+    }
+
+    .banner-title {
+        padding-left: 15px;
+    }
+
+    .banner-image {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .banner-image img {
+        width: 95%;
+        height: auto;
+    }
+
+    /* player area */
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+    /* highlights area */
+    .highlights-container-area {
+        margin: 50px 20px;
+    }
+
+    .highlights-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .highlights-image {
+        margin-top: 25px;
+    }
+
+    .highlights-image img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .highlights-title {
+        width: 100%;
+        height: auto;
+    }
+
+    /* copa final container aria */
+    .copa-final-container-area {
+        margin: 20px;
+    }
+
+    .copa-final-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .copa-final-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .copa-final-title {
+        margin: 0;
+    }
+
+    /* clubs aria */
+    .football-club-container {
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    .clubs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* footer aria */
+    .footer-image {
+        margin: 20px;
+    }
+
+    .footer-image img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+
+/*---------- tablet devices media queries ----------*/
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    /* banner aria */
+    .banner-title {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .banner-title h1 {
+        font-size: 40px;
+    }
+
+    .banner-image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner-image img {
+        width: 70%;
+        height: auto;
+    }
+
+    /* player aria */
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* highlights aria */
+    .highlights-container-area {
+        margin: 90px 20px;
+    }
+
+
+    .highlights-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .highlights-image img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .highlights-title {
+        width: 100%;
+        height: auto;
+    }
+
+    /* copa final aria */
+    .copa-final-container-area {
+        margin: 20px;
+    }
+
+    .copa-final-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .copa-final-image img {
+        width: 100%;
+        height: auto;
+    }
+
+    .copa-final-title {
+        margin: 0;
+    }
+
+    /* football club area */
+    .clubs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* footer area  */
+
+
+}
+
+
+/*------------------------------------ Media queries ends from here ------------------------------------*/
