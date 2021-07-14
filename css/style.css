@@ -394,7 +394,6 @@ header {
 }
 
 
-
 /*---------- tablet devices media queries ----------*/
 @media only screen and (min-width:688px) and (max-width:992px) {
 
@@ -471,6 +470,5 @@ header {
 
 
 }
-
 
 /*------------------------------------ Media queries ends from here ------------------------------------*/
